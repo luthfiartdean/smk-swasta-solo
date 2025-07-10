@@ -7,7 +7,7 @@
     <div class="card">
             <div class="card-image">
                 <figure class="image is-16by9">
-                    <img src="{{ asset('storage/' . $smk->fotos->first()->foto) }}" alt="{{ $smk->nama }}">
+                    <img src="{{ $smk->fotos->first()->foto }}" alt="{{ $smk->nama }}">
                 </figure>
     <div class="content">
         <p><strong>Alamat:</strong> {{ $smk->alamat }}</p>
