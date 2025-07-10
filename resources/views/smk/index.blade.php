@@ -9,7 +9,7 @@
                     <div class="card-content columns">
                         <div class="column is-one-quarter">
                             <figure class="image is-4by3">
-                                <img src="{{ asset('storage/' . $smk->fotos->first()->foto) }}" alt="{{ $smk->nama }}">
+                               <img src="{{ $smk->fotos->first()->foto }}" alt="{{ $smk->nama }}">
                             </figure>
                         </div>
             <div class="card-content">
