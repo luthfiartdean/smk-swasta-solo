@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="{{ asset('bulma/css/bulma.min.css') }}">
+    <!-- Bulma CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <style>
         .container {
             max-width: 800px;
